@@ -131,3 +131,36 @@ ul li {
 #footer {
     height: 60px;
 }
+
+#footer .content {
+    width: 1000px;
+    margin: auto;
+}
+
+#footer .content li {
+    float: left;
+}
+
+#footer .content li a,
+#footer .content li span {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 10px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#footer .content li#follow,
+#footer .content li#copyright {
+    float: right;
+}
+
+#footer .content li#follow a {
+    color: rgb(66, 139, 202);
+}
+
+#footer .content li#follow a:hover {
+    text-decoration: underline;
+}
